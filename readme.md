@@ -13,8 +13,8 @@ pip install -r requirements.txt
 ```
 .\env\Scripts\pyuic5.exe form.ui -o from.py -x
 ```
-## Директории
-| Папка             | Описание                    |
+## Директории / файлы
+| Название          | Описание                    |
 |-------------------|-----------------------------|
 | src               | основная директория проекта |
 | pyqt-designer.lnk | линк на designer            |
