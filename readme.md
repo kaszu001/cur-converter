@@ -1,10 +1,14 @@
 # Cur converter - Конвертер валют
 ## Установка
-### Активировать Env проекта
+### Создание env
+```bash
+python -m venv env
+```
+### Активация env
 ```bash
 .\env\Scripts\activate
 ```
-### Requirements
+### Установка зависимостей
 ```bash
 pip install -r requirements.txt
 ```
