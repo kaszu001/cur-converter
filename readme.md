@@ -17,7 +17,7 @@ pip install -r requirements.txt
 | Название          | Описание                    |
 |-------------------|-----------------------------|
 | src               | основная директория проекта |
-| pyqt-designer.lnk | линк на designer            |
+| designer.cmd      | запускает qt designer       |
 
 ## API
 ### Документация currency converter api
