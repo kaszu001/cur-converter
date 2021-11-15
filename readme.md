@@ -2,7 +2,7 @@
 ## Установка
 ### Активировать Env проекта
 ```bash
-.\env\Scripts\activate
+.\venv\Scripts\activate
 ```
 ### Requirements
 ```bash
@@ -11,7 +11,7 @@ pip install -r requirements.txt
 ### QT5
 Создание py скрипта на основе ui
 ```
-.\env\Scripts\pyuic5.exe form.ui -o from.py -x
+.\venv\Scripts\pyuic5.exe form.ui -o from.py -x
 ```
 ## Директории / файлы
 | Название          | Описание                    |
