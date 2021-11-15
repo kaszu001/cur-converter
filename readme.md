@@ -1,8 +1,19 @@
 # Cur converter - Конвертер валют
+
+## TODO
+- [ ] поменять типы форм
+- [ ] навесить слушатели на все формы и сохранять их значения
+- [ ] разобраться с comboBox
+- [ ] подгрузить все типы валют с апи
+- [ ] вывести все типы валют в comboBoxы
+- [ ] сделать одну форму куда будет конвертироваться вся хренб не активной
+- [ ] в onCurrentTextChanged написать логику перевода валюты
+
+
 ## Установка
 ### Создание env
 ```bash
-python -m venv env
+python -m venv venv
 ```
 ### Активация env
 ```bash
@@ -15,7 +26,7 @@ pip install -r requirements.txt
 ### QT5
 Создание py скрипта на основе ui
 ```
-.\venv\Scripts\pyuic5.exe form.ui -o from.py -x
+.\venv\Scripts\pyuic5.exe form.ui -o form.py -x
 ```
 ## Директории / файлы
 | Название          | Описание                    |
