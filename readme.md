@@ -24,6 +24,10 @@ python -m venv venv
 ```bash
 pip install -r requirements.txt
 ```
+## Запуск
+```
+python app.py
+```
 ## QT5
 Создание py скрипта на основе ui
 ```
