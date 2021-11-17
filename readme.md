@@ -24,7 +24,7 @@ python -m venv venv
 ```bash
 pip install -r requirements.txt
 ```
-### QT5
+## QT5
 Создание py скрипта на основе ui
 ```
 .\venv\Scripts\pyuic5.exe form.ui -o form.py -x
